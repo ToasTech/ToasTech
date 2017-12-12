@@ -1,0 +1,88 @@
+.ml-5 {
+    margin-left: 38rem !important;
+}
+.ml-4{
+    margin-left: 19rem !important;
+}
+.ml-3{
+    margin-left: 23rem !important;
+}
+.bg-success{
+    background-image: url("../res/abstract-21640_1920.jpg");
+
+}
+.btn-success{
+    background-color: 			#85492D;
+    border-color: 			#85492D;
+}
+
+.btn-success:hover{
+    background-color: 		#85492D;
+    border-color: 		#85492D;
+}
+.modal-body p{
+    color: 	white;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
+#cn{
+    font-weight: bold;
+    color: white;
+    font-size: xx-large;
+}
+h4{
+    font-size: xx-large;
+}
+.carousel-caption{
+    padding-bottom: 200px;
+
+    text-shadow: -1px 0 black, 0 1px black ,1px 0 black ,0 -1px black;
+    font-size: x-large;
+    font-family: "Lucida Sans";
+    color: white;
+    font-weight: bold;
+
+    width: 550px;
+    margin-left: 20%;
+    text-align: center;
+    top: 60% !important;
+    transform: translate(-30%,-30%)  ;
+
+    bottom: initial;
+
+}
+.carImg{
+
+    transform: translateX(60%);
+}
+.carousel-indicators > li {
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width:100px;
+
+    background-size: 100%, 100%;
+
+    border: none;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+    content: '>';
+    font-size: 55px;
+    color: #f2d067;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: #f2d067;
+}
