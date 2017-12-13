@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
     <link  rel="stylesheet" href="css/ToastCSS.css">
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link  rel="stylesheet" href="css/style.css">
 
 
@@ -169,7 +169,6 @@
                         <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
                         <div class="row">
                             <div class="col-sm-12 form-group">
-                                <button class="btn  ml-3-hasnaa btn-success" type="submit">Send</button>
                             </div>
                         </div>
                     </div>
@@ -178,6 +177,7 @@
 
             <!-- Modal footer -->
             <div class="modal-footer bg-success">
+                <button class="btn  ml-3-hasnaa btn-success" type="submit">Send</button>
                 <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
             </div>
 
@@ -200,10 +200,9 @@
 
         $("a").mouseenter(function () {
             $(this).css("color","#93621f");
-        })
-        $("a").mouseleave(function () {
+        }).mouseleave(function () {
             $(this).css("color","#683a29");
-        })
+        });
     });
 
 </script>
