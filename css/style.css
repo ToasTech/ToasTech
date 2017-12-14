@@ -54,3 +54,18 @@ h4{
 .container-fluid1 {
     padding: 30px 25px;
 }
+.sabaclass{
+    border: none;
+}
+.saba-btn-dtop{
+    margin-top: 23px;
+
+}
+.saba-btn-andr{
+    margin-top: 27px;
+}
+.saba-btn-courses{
+    margin-top: 21px;
+}
+
+body { padding-right: 0 !important }
