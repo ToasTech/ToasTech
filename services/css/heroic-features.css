@@ -16,11 +16,22 @@ body {
     margin-bottom: 30px;
 }
 
-.bgimg{
-   /* background-image: url("../img/bread-clipart-slice-bread-5.png");
-
-    background-size: auto;
-    background-position: center; */
-    background-repeat: no-repeat;
+.sabaclass{
     border: none;
+}
+.sabamargin1{
+     margin-top: 23px;
+
+ }
+.sabamargin2{
+    margin-top: 13px;
+
+}
+.sabamargin3{
+    margin-top: 12px;
+
+}
+.sabamargin4{
+    margin-top: 10px;
+
 }
