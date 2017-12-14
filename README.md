@@ -10,8 +10,8 @@ will be found [here](http://ToasTech.SyrianPioneer.com)
 - About (Idea to make it better):
     1. why to make all service show up together?  
     
-    2. animation on divs to show / hide the next paragraph
-    
+    2. animation on divs to show / hide the next paragraph.
+
 
     <ToasTech>
         Hello Toast
