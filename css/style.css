@@ -42,14 +42,14 @@ h4{
 }
 .p-hasnaa{
     font-size: x-large;
-    color: #85492D;
+    color: #683a29;
 }
 .h4-hasnaa{
     color: #52c56a;
     font-size: xx-large;
 }
 .bg-hasnaa {
-    background-color: #f3eacc;
+    background-color: rgba(239, 192, 120, 0.37);
 }
 .container-fluid1 {
     padding: 30px 25px;
