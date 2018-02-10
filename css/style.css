@@ -47,6 +47,7 @@ h4{
 .h4-hasnaa{
     color: #52c56a;
     font-size: xx-large;
+    font-weight: bolder;
 }
 .bg-hasnaa {
     background-color: rgba(239, 192, 120, 0.37);
@@ -69,3 +70,64 @@ h4{
 }
 
 body { padding-right: 0 !important }
+
+/* Abdussalam Styles */
+.div-sp{
+    background-image: url("../res/bg/divsp.jpg") ;
+    background-color: rgba(239, 192, 120, 0.37);
+    background-repeat:no-repeat;
+    padding:10% 0;
+    background-size:100%;
+}
+.div-sp1{
+    background-image: url("../res/bg/divsp1.jpg") ;
+    background-color: #85492D;
+    background-repeat:no-repeat;
+    padding:15% 0;
+    background-size:100%;
+}
+.div-sp2{
+    background-image: url("../res/bg/divsp2.jpg") ;
+    background-color: #E1BD92;
+    background-repeat:no-repeat;
+    padding:15% 0;
+    background-size:100%;
+}
+
+.tx-title{
+    font-size:xx-large;
+}
+.tx-big{
+    font-size:x-large;
+}
+.tx-mid{
+    font-size:large;
+}
+.abd-titles{
+    font-size:300%;
+    color: #d4720e;
+    font-weight:bolder;
+}
+.abd-align-center{
+    text-align: center;
+}
+.img-thumbnail{
+    opacity: 0.7;
+}
+.img-thumbnail:hover{
+    opacity: 1;
+}
+@font-face{
+    font-family:"french";
+    src:url("site-fonts/french.ttf");
+}
+@font-face{
+    font-family:"titles";
+    src:url("site-fonts/title.ttf");
+}
+.font-french{
+    font-family:"french";
+}
+.font-title{
+    font-family:"titles";
+}
