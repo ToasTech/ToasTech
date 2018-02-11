@@ -94,6 +94,18 @@ body { padding-right: 0 !important }
     background-size:100%;
 }
 
+.div-sp3{
+    background-image: url("../res/bg/divsp3.jpg") ;
+    background-color: #FDF0E2;
+    background-repeat:no-repeat;
+    padding:15% 0;
+    background-size:100%;
+}
+.main-div-abd{
+    background-color: #DBBB8D;
+    padding:10% 0;
+}
+
 .tx-title{
     font-size:xx-large;
 }
