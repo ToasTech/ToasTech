@@ -8,7 +8,6 @@ body{
     background: url("../res/dealfuel-april8-04.png");
 }
 
-
 .mov
 {
     margin-left:500px;
@@ -17,10 +16,16 @@ body{
 .TT{
     font-size: x-large;
     font-weight: bold;
-    color:#683a29;
-
-
 }
+.a-tala{
+    color:#683a29;
+}
+.a-tala-brand{
+    height: 80%;
+    width:80%;
+    border-radius:50%;
+    margin-left: 5%;
+    }
 #header
 {
 
@@ -28,12 +33,17 @@ body{
 }
 .btnCU
 {
+    color: #fdf4e8;
+    /*background-image: linear-gradient( #683a29 0%, #E1BD92 100%);*/
     background-color: #683a29;
     border-color: #683a29;
-    opacity: 0.7;
+    opacity: 0.9;
+    font-size: large;
 }
-.btnCU :hover {
-    background-color:#683a29;
+.btnCU:hover {
+    cursor: pointer;
+    background-color:#E1BD92 ;
+   color:#683a29 ;
 }
 
 #H {
@@ -130,5 +140,215 @@ ul.img{
 /*the end code of social media*/
 
 
+.ml-4-hasnaa{
+    margin-left: 40% !important;
+}
+.ml-3-hasnaa{
+    margin-left: 70% !important;
+}
+.bg-success1{
+    background-image: url("../res/abstract-21640_1920.jpg");
+
+}
+.btn-success1{
+    font-weight: bold;
+    background-color:#85492D;
+    border-color: #85492D;
+    color: #E1BD92;
+}
+.btn-success1:hover{
+    cursor: pointer;
+    background-color:#E1BD92 ;
+    color:#683a29 ;
+}
 
 
+.modal-body p{
+    color: 	white;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
+#cn{
+    font-weight: bold;
+    color: white;
+    font-size: xx-large;
+}
+h4{
+    font-size: xx-large;
+}
+.glyp{
+
+    height: 100px;
+    width: 100px;
+
+    font-size:500%;
+    color: #85492D;
+
+
+}
+.p-hasnaa{
+    font-size: x-large;
+    color: #683a29;
+}
+.h4-hasnaa{
+    color: #52c56a;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.bg-hasnaa {
+    background-color: rgba(239, 192, 120, 0.37);
+}
+.container-fluid1 {
+    padding: 30px 25px;
+}
+.sabaclass{
+    border: none;
+}
+.saba-btn-dtop{
+    margin-top: 23px;
+
+}
+.saba-btn-andr{
+    margin-top: 27px;
+}
+.saba-btn-courses{
+    margin-top: 21px;
+}
+
+body { padding-right: 0 !important }
+
+/* Abdussalam Styles */
+.div-sp{
+    background-image: url("../res/bg/divsp.jpg") ;
+    background-color: rgba(239, 192, 120, 0.37);
+    background-repeat:no-repeat;
+    padding:10% 0;
+    background-size:100%;
+}
+.div-sp1{
+    background-image: url("../res/bg/divsp1.jpg") ;
+    background-color: #85492D;
+    background-repeat:no-repeat;
+    padding:15% 0;
+    background-size:100%;
+}
+.div-sp2{
+    background-image: url("../res/bg/divsp2.jpg") ;
+    background-color: #E1BD92;
+    background-repeat:no-repeat;
+    padding:15% 0;
+    background-size:100%;
+}
+
+.div-sp3{
+    background-image: url("../res/bg/divsp3.jpg") ;
+    background-color: #FDF0E2;
+    background-repeat:no-repeat;
+    padding:15% 0;
+    background-size:100%;
+}
+.main-div-abd{
+    background-color: #DBBB8D;
+    padding:10% 0;
+}
+
+.tx-title{
+    font-size:xx-large;
+}
+.tx-big{
+    font-size:x-large;
+}
+.tx-mid{
+    font-size:large;
+}
+.abd-titles{
+    font-size:300%;
+    color: #d4720e;
+    font-weight:bolder;
+}
+.abd-align-center{
+    text-align: center;
+}
+.img-thumbnail{
+    opacity: 0.7;
+}
+.img-thumbnail:hover{
+    opacity: 1;
+}
+@font-face{
+    font-family:"french";
+    src:url("site-fonts/french.ttf");
+}
+@font-face{
+    font-family:"titles";
+    src:url("site-fonts/title.ttf");
+}
+.font-french{
+    font-family:"french";
+}
+.font-title{
+    font-family:"titles";
+}
+.hvr-shutter-in-vertical:before{
+    background: #d4720e;
+}
+.hvr-shutter-in-vertical:hover ,.hvr-shutter-in-vertical:focus{
+
+    background: #823232;
+    color: white;
+
+}
+.hvr-bounce-to-right:before{
+
+    background: #d4720e;
+    color: white;
+}
+.hvr-bounce-to-right:hover:before,.hvr-bounce-to-right:focus:before{
+    background: #823232;
+    color: white;
+}
+/*.btn-ipad{*/
+    /*background-color: lightgray;*/
+/*}*/
+.hvr-shutter-in-horizontal:hover,.hvr-shutter-in-horizontal:focus{
+    background: #823232;
+    color: white;
+}
+.hvr-shutter-in-horizontal:before{
+    background: #d4720e;
+    color: white;
+}
+
+.hvr-rectangle-out:hover:before,.hvr-rectangle-out:focus:before{
+    background: #823232;
+    color: white;
+}
+.hvr-rectangle-out:before{
+    background: #d4720e;
+    color: white;
+}
+#btnScroll{
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    z-index: 99;
+    cursor: pointer;
+    padding: 16px;
+    background-color:#EFC078 ;
+    border-radius: 100%;
+}
+.btnServices{
+    background: #d4720e;
+    color: white;
+}
+#OurServices {
+    -webkit-animation-iteration-count: 3;
+}
+#who{
+
+    /*animation-duration: 5s;*/
+}
