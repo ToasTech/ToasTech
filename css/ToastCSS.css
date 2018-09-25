@@ -385,3 +385,7 @@ body { padding-right: 0 !important }
     border-top-left-radius: 20%;
     border-bottom-right-radius: 20%;
 }
+/*override bootstrap class image-thumbnail*/
+.img-thumbnail{
+    background-color: #d4720e;
+}

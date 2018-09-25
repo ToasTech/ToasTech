@@ -302,7 +302,7 @@ background-color:#E1BD92;">
                 <br>
             </div>
         </div>
-        <div class="row" style="text-align: center;">
+        <div class="row add_class_to_childreen" style="text-align: center;" >
             <div class="col-lg-4 col-md-4 col-sm-4 wow flipInY hvr-grow" data-wow-delay="200ms">
                 <img class="rounded-circle img-thumbnail "  alt="Abdussalam Ali" width="75%" height="75%"
                      src="res/team/samo.jpg" />
@@ -325,7 +325,7 @@ background-color:#E1BD92;">
             </div>
         </div>
         <hr>
-        <div class="row" style="text-align: center;">
+        <div class="row add_class_to_childreen" style="text-align: center;">
             <div class="col-lg-3 col-md-3 col-sm-3 wow fadeIn" data-wow-delay="150ms">
                 <img class="rounded-circle img-thumbnail" alt="Abdussalam Ali" width="75%" height="75%" src="res/team/farah.jpg" />
 
@@ -352,7 +352,7 @@ background-color:#E1BD92;">
             </div>
         </div>
 
-        <div class="row" style="text-align: center;">
+        <div class="row add_class_to_childreen" style="text-align: center;">
             <div class="col-lg-3 col-md-3 col-sm-3 wow flipInX" data-wow-delay="250ms">
                 <img class="rounded-circle img-thumbnail" alt="Abdussalam Ali" width="75%" height="75%" src="res/team/mina.jpg" />
 
@@ -378,7 +378,7 @@ background-color:#E1BD92;">
                 <p>Web Designer</p>
             </div>
         </div>
-        <div class="row" style="text-align: center;">
+        <div class="row add_class_to_childreen" style="text-align: center;">
             <div class="col-lg-3 col-md-3 col-sm-3"></div>
             <div class="col-lg-3 col-md-3 col-sm-3 wow flipInX" data-wow-delay="200ms">
                 <img class="rounded-circle img-thumbnail" alt="Abdussalam Ali" width="75%" height="75%" src="res/team/diana.jpg" />
@@ -446,6 +446,7 @@ background-color:#E1BD92;">
         <div class="m-0 text-center text-white tx-title">ToasTech 2018</div>
     </div>
 </footer>
+
 <script src="js/wow.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
@@ -454,7 +455,9 @@ background-color:#E1BD92;">
 <script src="js/gmaps.js"></script>
 <script>
 
+
     $(document).ready(function () {
+         children = $('.add_class_to_childreen').children().addClass("hvr-grow");
 
         $(".a-tala").mouseenter(function () {
             $(this).css("color","#93621f");
