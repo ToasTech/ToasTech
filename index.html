@@ -11,12 +11,47 @@
     <!--<link rel="stylesheet" href="css/font-awesome.min.css">-->
     <script src="https://use.fontawesome.com/11d1edc33a.js"></script>
     <link rel="stylesheet" href="css/pro1.css">
+    <link  rel="stylesheet" href="css/css-loader.css">
+    <link rel="stylesheet" href="css/loader.css">
     <link  rel="stylesheet" href="css/ToastCSS.css">
 
 
 </head>
 
-<body>
+<body onload="onload()">
+
+<!--Begin Of Loader-->
+<div class="loader is-active " style="    height:100%;
+width:100%;
+z-index: 1000;
+background-color:#E1BD92;" id="loaderframe">
+
+<section>
+
+
+<div id = "cupcake" class = "box lo " style="    height:100%;
+width:100%;
+padding:0px;
+background-color:#E1BD92;">
+<span class = "letter">T</span>
+
+<div class = "cupcakeCircle box">
+<div class = "cupcakeInner box">
+<div class = "cupcakeCore box"></div>
+</div>
+</div>
+<span class = "letter box">a</span>
+<span class = "letter box">s</span>
+<span class = "letter box">T</span>
+<span class = "letter box">e</span>
+<span class = "letter box">c</span>
+<span class = "letter box">h</span>
+</div>
+</section>
+
+</div>
+
+<!--End Of Loader-->
 
     <nav id="header" class="navbar navbar-expand-lg TT pos ">
 
@@ -110,6 +145,9 @@
 </div>
 <!-- End of Modal -->
 
+
+
+
 <div class="main-div-abd">
     <!-- when u add content don't forget to remove in-line styles -->
 <div class="container-fluid" style="height: 500px; width:100%;">
@@ -117,19 +155,19 @@
     <h1 class="text-center" id="H"><strong>WELCOME TO TOASTECH!</strong></h1>
 </div>
 
-<div id="md">
+<!--<div id="md">-->
 
-    <!--the code of social media FARAH LAMA-->
-    <ul class=' flatflipbuttons second '>
-        <li><a href='#' target='_blank'><span><img class="img" src='res/facebook.png'></span></a></li>
-        <li><a href='#' target='_blank'><span><img class="img" src='res/instagram.png'/></span></a></li>
-        <li><a href='#' target='_blank'><span><img class="img" src='res/youtube.png'/></span></a></li>
-        <li><a href='#' target='_blank'><span><img class="img" src='res/google.png'/></span></a></li>
+    <!--&lt;!&ndash;the code of social media FARAH LAMA&ndash;&gt;-->
+    <!--<ul class=' flatflipbuttons second '>-->
+        <!--<li><a href='#' target='_blank'><span><img class="img" src='res/facebook.png'></span></a></li>-->
+        <!--<li><a href='#' target='_blank'><span><img class="img" src='res/instagram.png'/></span></a></li>-->
+        <!--<li><a href='#' target='_blank'><span><img class="img" src='res/youtube.png'/></span></a></li>-->
+        <!--<li><a href='#' target='_blank'><span><img class="img" src='res/google.png'/></span></a></li>-->
 
-    </ul>
-    <!--the end  code of social media-->
+    <!--</ul>-->
+    <!--&lt;!&ndash;the end  code of social media&ndash;&gt;-->
 
-</div>
+<!--</div>-->
 
 </div>
     <a  id="btnScroll" class="btn btn-light scroll11 " href="#header"><i class="fa fa-arrow-circle-up fa-2x" aria-hidden="true"></i></a>
@@ -149,55 +187,55 @@
         <!-- Page Features -->
         <div class="row text-center " >
 
-            <div class="col-md-3 col-sm-6 hero-feature wow pulse" >
+            <div class="col-md-3 col-sm-6  hero-feature wow pulse hvr-grow changecolor_hover" >
                 <div class="thumbnail sabaclass">
                     <img src="res/Icons8-Ios7-Network-Android-Os-Copyrighted.ico" alt="" style="width: 160px; "
-                         id="androidimage" class="hvr-wobble-bottom">
+                         id="androidimage" >
                     <div class="caption">
                         <h3 style="color: #d4720e; margin-bottom: 1px"><b>Android</b></h3>
                         <p > <b style="color: #823232; margin-top: 5px ; display: inline-block;"class="wow rubberBand" >ToasTech</b> offers professional Android application design services</p>
                         <p>
 
-                            <button href="#" class="hvr-shutter-in-vertical btn btnServices">Order Now!</button>
+                            <!--<button href="#" class="hvr-shutter-in-vertical btn btnServices">Order Now!</button>-->
                         </p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-3 col-sm-6 hero-feature wow pulse" data-wow-delay="350ms" >
+            <div class="col-md-3 col-sm-6 hero-feature wow pulse hvr-grow changecolor_hover" data-wow-delay="350ms" >
                 <div class="thumbnail sabaclass">
-                    <img src="res/WWW-Icon.png" alt="" style="width: 150px; " class="hvr-wobble-top">
+                    <img src="res/WWW-Icon.png" alt="" style="width: 150px; " >
                     <div class="caption">
                         <h3 style="color: #d4720e; margin-top: 8px"><b>Web design</b></h3>
                         <p > <b style="color: #823232;display: inline-block;"class="wow rubberBand" data-wow-delay="350ms">ToasTech</b> offers professional websites designs and devlopment services.</p>
-                        <button href="#" class="btn hvr-bounce-to-right btn-ipad btnServices">Order Now! </button>
+                        <!--<button href="#" class="btn hvr-bounce-to-right btn-ipad btnServices">Order Now! </button>-->
 
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-3 col-sm-6 hero-feature wow pulse" data-wow-delay="700ms" >
+            <div class="col-md-3 col-sm-6 hero-feature wow pulse hvr-grow changecolor_hover" data-wow-delay="700ms" >
                 <div class="thumbnail sabaclass   ">
-                    <img src="res/111029-200.png" alt="" style="width: 150px; " class="hvr-bob">
+                    <img src="res/111029-200.png" alt="" style="width: 150px; " >
                     <div class="caption">
                         <h3 style="color: #d4720e; margin-top: 8px"> <b>Desktop Apps</b></h3>
                         <p><b style="color: #823232;display: inline-block;"class="wow rubberBand" data-wow-delay="700ms">ToasTech</b> offers professional Desktop applications .</p>
                         <p>
                             <br>
-                            <button href="#" class="btn hvr-shutter-in-horizontal btnServices">Order Now!</button>
+                            <!--<button href="#" class="btn hvr-shutter-in-horizontal btnServices">Order Now!</button>-->
                         </p>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-3 col-sm-6 hero-feature wow pulse" data-wow-delay="1000ms"  >
+            <div class="col-md-3 col-sm-6 hero-feature wow pulse hvr-grow changecolor_hover" data-wow-delay="1000ms"  >
                 <div class="thumbnail sabaclass  " >
-                    <img src="res/Icons8-Ios7-Science-Classroom.ico" alt="" style="width: 150px; " class="hvr-pulse-grow">
+                    <img src="res/Icons8-Ios7-Science-Classroom.ico" alt="" style="width: 150px; " >
                     <div class="caption">
                         <h3 style="color: #d4720e;margin-top: 10px"><b>Courses</b></h3>
                         <p><b style="color: #823232;display: inline-block;"class="wow rubberBand" data-wow-delay="1000ms">ToasTech</b> offers all kind of courses with professional trainers.</p>
                         <p>
-                            <button href="#" class="btn  hvr-rectangle-out btnServices">Order Now!</button>
+                            <!--<button href="#" class="btn  hvr-rectangle-out btnServices">Order Now!</button>-->
                         </p>
                     </div>
                 </div>
@@ -216,7 +254,7 @@
 
 <!-- the new about section no more carousle-->
 <div class="container-fluid1 bg-hasnaa div-sp ">
-    <div class="container-fluid1 text-center wow slideInLeft" id="who" data-wow-delay="200ms">
+    <div class="container-fluid1 text-center wow slideInLeft test" id="who" data-wow-delay="200ms">
         <div class="row">
 
             <div class=" col-12 col-lg-4 col-sm-12 col-md-6 text-center text-danger"> <i class="fa fa-users glyp" aria-hidden="true"></i></div>
@@ -225,10 +263,10 @@
                 <h4 class="h4-hasnaa">who are we??</h4>
                 <p class="p-hasnaa"> a group of young engineers trying to integrate technology<br> into syrian society especially lattakia     </p>
             </div>
-
         </div>
+
     </div>
-    <div class="container-fluid1 text-center wow jackInTheBox" data-wow-delay="350ms">
+    <div class="container-fluid1 text-center wow jackInTheBox test" data-wow-delay="350ms">
         <div class="row">
 
             <div class="  col-12  col-sm-12 col-md-6 col-lg-4 text-center text-danger" ><i class="fa fa-star glyp" aria-hidden="true"></i></div>
@@ -239,7 +277,7 @@
 
         </div>
     </div>
-    <div class="container-fluid1 text-center wow rotateInUpLeft" data-wow-delay="600ms">
+    <div class="container-fluid1 text-center wow rotateInUpLeft test" data-wow-delay="600ms">
         <div class="row">
             <div class="col-12  col-lg-4 col-sm-12 col-md-6 text-center text-danger" > <i class="fa fa-globe glyp" aria-hidden="true"></i></div>
             <div class="col-12  col-lg-8 col-sm-12 col-md-6">
@@ -247,9 +285,11 @@
                 <p class="p-hasnaa">we're working hard to reach national recognition</p>
             </div>
         </div>
-        <hr>
+
     </div>
+
 </div>
+
 <!--the end of about  section-->
 
 <!-- meet our team section -->
@@ -263,7 +303,7 @@
             </div>
         </div>
         <div class="row" style="text-align: center;">
-            <div class="col-lg-4 col-md-4 col-sm-4 wow flipInY" data-wow-delay="200ms">
+            <div class="col-lg-4 col-md-4 col-sm-4 wow flipInY hvr-grow" data-wow-delay="200ms">
                 <img class="rounded-circle img-thumbnail "  alt="Abdussalam Ali" width="75%" height="75%"
                      src="res/team/samo.jpg" />
 
@@ -341,18 +381,17 @@
         <div class="row" style="text-align: center;">
             <div class="col-lg-3 col-md-3 col-sm-3"></div>
             <div class="col-lg-3 col-md-3 col-sm-3 wow flipInX" data-wow-delay="200ms">
-                <img class="rounded-circle img-thumbnail" alt="Abdussalam Ali" width="75%" height="75%" src="res/team/diana.png" />
+                <img class="rounded-circle img-thumbnail" alt="Abdussalam Ali" width="75%" height="75%" src="res/team/diana.jpg" />
 
                 <h1>Diana Fares</h1>
                 <p>Web Designer</p>
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 wow flipInX" data-wow-delay="500ms">
-                <img class="rounded-circle img-thumbnail" alt="Resli" width="75%" height="75%" src="res/team/resli.png" />
+                <img class="rounded-circle img-thumbnail" alt="Resli" width="75%" height="75%" src="res/team/.jpg" />
                 <h1>Mohammad Resli</h1>
                 <p>Android Developer</p>
             </div>
-
         </div>
 
     </div>
@@ -360,55 +399,41 @@
 
 <!-- contact us section -->
 <div class="div-sp1" id="ContactUs">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-5 col-md-4 col-sm-4">
-                <h1 class="text-white">Contact Us</h1>
-                <p class="tx-big">
-                    <i>Soon our products will be available for worldwide use,
-                        Toastec will give you a chance to transform your boring daily tasks into a fun-to-use application made by the company.</i>
-                </p>
+        <div class="container row " >
 
+            <div class="container-fluid col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 end" id="map">
+                <!--This Div For Map-->
             </div>
-            <div class="col-lg-1"></div>
-            <div class="col-lg-4 col-md-4 col-sm-4 tx-big">
+
+            <div class="col-xl-4 col-lg-5 col-md-5 col-sm-12 col-12 tx-big end">
                 <h1 class="text-white">More Info</h1>
 
-
                 <div>
-                    <p><i class="fa fa-map-marker wow bounce" data-wow-duration="1.4s" data-wow-delay="50ms"> </i> Lattakia,Syria</p>
-                </div>
-                <div>
-
-                    <p><i class="fa fa-phone wow shake" data-wow-duration="600ms" data-wow-delay="100ms"></i> +963 933 776 933</p>
+                    <p><i class="fa fa-map-marker wow bounce"
+                  data-wow-duration="1.4s" data-wow-delay="50ms"> </i> Lattakia,Syria</p>
                 </div>
                 <div>
 
-                    <p>
-                        <i class="fa fa-envelope"></i>
-                        <a href="#"> Tostech@company.com</a>
-                    </p>
+                    <h6><i class="fa fa-phone wow shake"
+                data-wow-duration="600ms" data-wow-delay="100ms"></i> +963 933 776 933</h6>
                 </div>
+                <div>
 
-                <div class="list tx-mid">
-                    <a href="#"> Home</a> |
-                    <a href="#"> About </a> |
-                    <a href="#"> Services</a> |
-                    <a href="#"> Contact us</a>
+               <h6>
+                  <i class="fa fa-envelope"></i><a href="#">Tostech@company.com</a>
+               </h6>
                 </div>
-
             </div>
-            <div class="col-lg-1 col-md-1 col-sm-1">
+
+            <div class="col-xl-1  col-lg-1 col-md-1 col-sm-12 col-12 end">
                 <br>
-                <div class="icons">
-                    <a href="#"><i class="hfa fa fa-facebook fa-3x wow flip" data-wow-delay="200ms" data-wow-duration="400ms"></i> </a>
-                    <a href="#"><i class="hfa fa fa-twitter fa-3x wow flip" data-wow-delay="450ms"data-wow-duration="400ms"></i> </a>
-                    <a href="#"><i class="hfa fa fa-google-plus fa-3x wow flip" data-wow-delay="650ms"data-wow-duration="400ms"> </i></a> &nbsp;
-                    <a herf="#"><i class="hfa fa fa-youtube fa-3x wow flip" data-wow-delay="850ms"data-wow-duration="400ms"></i></a>
+                <div class="container icons">
+                   <div onclick="location.assign('https://www.google.com/')" class=" fa fa-facebook fa-2x wow flip" data-wow-delay="200ms" data-wow-duration="400ms"></div>
+                    <div class=" fa fa-twitter fa-2x wow flip" data-wow-delay="450ms"data-wow-duration="400ms"></div>
+                    <div class=" fa fa-linkedin fa-2x wow flip" data-wow-delay="650ms"data-wow-duration="400ms"></div> &nbsp;
                 </div>
             </div>
         </div>
-    </div>
 </div>
 
 
@@ -425,6 +450,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+<script src="http://maps.google.com/maps/api/js?key=AIzaSyB_n88VRFhbAQ15W5a_zV5zOZt6p8VRb7s&callback=initMap&language=ar"></script>
+<script src="js/gmaps.js"></script>
 <script>
 
     $(document).ready(function () {
@@ -463,6 +490,29 @@
         });
     });
     new WOW().init();
+
+    function onload() {
+       $('.loader').removeClass('is-active');
+       $('#loaderframe').css("display","none");
+    }
+    var map = new GMaps({
+        div: '#map',
+        lat: 35.526639,
+        lng: 35.800536,
+        zoom: 18.5,
+        mapType:'HYBRID'
+
+            });
+    map.addMarker({
+        lat: 35.526639,
+        lng: 35.800536,
+        title: 'SyrianPionner ' +
+        'الريادي السوري ',
+        infoWindow: {
+            content: '<p>ToasTech</p>' +
+            '<img src="res/team/hasan.jpg">'
+        }
+    });
 </script>
 
 

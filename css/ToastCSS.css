@@ -247,7 +247,7 @@ body { padding-right: 0 !important }
     background-image: url("../res/bg/divsp3.jpg") ;
     background-color: #FDF0E2;
     background-repeat:no-repeat;
-    padding:15% 0;
+    padding:10% 0;
     background-size:100%;
 }
 .main-div-abd{
@@ -351,4 +351,37 @@ body { padding-right: 0 !important }
 #who{
 
     /*animation-duration: 5s;*/
+}
+/*@media screen and (max-width: 800px) {*/
+
+    /*#map {*/
+        /*height: 300px;*/
+    /*}*/
+/*}*/
+.end{
+    margin-left: 1%;
+}
+#map{
+    width: 5%;
+    height: 5%;
+}
+
+.changecolor_hover{
+
+    transition: 0.5s;
+    border-radius: 15%;
+}
+.changecolor_hover:hover {
+        /*opacity: 0.8 ;*/
+    background-color: #EFC078;
+}
+.test{
+    border-right: 10px solid #52c56a;
+    transition: 0.5s;
+    margin: 5px;
+}
+.test:hover{
+    background-color: #FDF0E2;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
 }
