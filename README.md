@@ -18,9 +18,9 @@ will be found [here](http://ToasTech.SyrianPioneer.com)
   ### Soon :
   + new Logo (Abd)
   + add GIF or Motion after navbar ,not poster (recommended) (Abd)
-  + re-add google map to footer 
-  + Activate "Send Email" feature 
-  + Re-decorate SocialMedia Icons in footer
+  + <s>re-add google map to footer </s>
+  + <s>Activate "Send Email" feature </s>
+  + <s>Re-decorate SocialMedia Icons in footer</s>
   
   ### Ideas :
   + Add "Our Vision" Section ,maybe .

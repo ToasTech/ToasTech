@@ -5,21 +5,40 @@
     border-radius: 50%;
     width: 50px;
     height: 50px;
-    background: #eee;
+    border-width: 2px;
+    border-style: solid;
     text-align: center;
-    line-height: 55px;
+    line-height: 50px;
+}
+.icons > div:hover{
+
 }
 .icons{
     /*margin-bottom: 20px!important;*/
     text-decoration: none; !important;
-    color: white;
+    color: #EFC078;
 }
 div.fa-facebook{
-    background: #5252b8;
+    background: black;
 }
 div.fa-twitter{
-    background: #00acee;
+   background: black;
 }
 div.fa-linkedin{
-    background: #55acee;
+    background: black;
+}
+
+/*SocialMedia Hover*/
+div.fa-facebook:hover{
+    background-color: #EFC078 ;
+    color: #1a2980;
+}
+
+div.fa-twitter:hover{
+    background-color: #EFC078 ;
+    color: #00acee;
+}
+div.fa-linkedin:hover{
+    background-color: #EFC078 ;
+    color: #0077b5;
 }
