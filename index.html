@@ -412,21 +412,21 @@ background-color:#E1BD92;">
             </div>
 
             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 tx-big end">
-                <h2 class="text-white">keep in touch</h2>
+                <h2  style="color: #EFC078">keep in touch</h2>
 
                 <div>
                     <h6><i class="fa fa-map-signs wow bounce"
-                  data-wow-duration="1.4s" data-wow-delay="50ms"></i>Syria,Lattakia,ALThawra-Street</h6>
+                  data-wow-duration="1.4s" data-wow-delay="50ms" style="color: #EFC078"></i> Syria,Lattakia,ALThawra-Street</h6>
                 </div>
                 <div>
 
                     <h6><i class="fa fa-phone wow shake"
-                data-wow-duration="600ms" data-wow-delay="100ms"></i> +963 933 776 933</h6>
+                data-wow-duration="600ms" data-wow-delay="100ms" style="color: #EFC078"></i> +963 933 776 933</h6>
                 </div>
                 <div>
 
                <h6>
-                  <i class="fa fa-envelope"></i><h7 href="#"> Tostech@company.com</h7>
+                  <i class="fa fa-envelope" style="color: #EFC078"></i><h7 href="#"> Tostech@company.com</h7>
                </h6>
                 </div>
                 <br>
@@ -435,8 +435,6 @@ background-color:#E1BD92;">
                     <div onclick="location.assign('https://www.twitter.com/')" class=" fa fa-twitter fa-1x wow flip" data-wow-delay="450ms"data-wow-duration="400ms"></div>
                     <div onclick="location.assign('https://www.linkedin.com/')" class=" fa fa-linkedin fa-1x wow flip" data-wow-delay="650ms"data-wow-duration="400ms"></div> &nbsp;
                 </div>
-                <a href="map2.html" target="_blank">Alternative Map 1</a>
-                <a href="map.html" target="_blank">Alternative Map 2</a>
             </div>
 
         </div>
@@ -454,35 +452,35 @@ background-color:#E1BD92;">
 </footer>
 
 
-<!--this script for MabBox Map-->
-<!--<script>-->
-    <!--mapboxgl.accessToken = 'pk.eyJ1IjoiaGFzb24tb3NhbiIsImEiOiJjam1qNWNyb3QwNmlqM3FxbGM5YmN1aG9pIn0.qjhTN9g2Pme7J2vNz7HU1Q';-->
-    <!--mapboxgl.setRTLTextPlugin('https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-rtl-text/v0.2.0/mapbox-gl-rtl-text.js');-->
+this script for MabBox Map
+<script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiaGFzb24tb3NhbiIsImEiOiJjam1qNWNyb3QwNmlqM3FxbGM5YmN1aG9pIn0.qjhTN9g2Pme7J2vNz7HU1Q';
+    mapboxgl.setRTLTextPlugin('https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-rtl-text/v0.2.0/mapbox-gl-rtl-text.js');
 
-    <!--var map = new mapboxgl.Map({-->
-        <!--container: 'map',-->
-        <!--style: 'mapbox://styles/mapbox/streets-v10',-->
-        <!--// maxZoom : '15',-->
-        <!--zoom: 16,-->
-        <!--center: [35.800536,35.526639],-->
-    <!--});-->
-    <!--var marker = new mapboxgl.Marker()-->
-        <!--.setLngLat([35.800536, 35.526639])-->
-        <!--.addTo(map);-->
-    <!--map.addControl(new MapboxGeocoder({-->
-        <!--accessToken: mapboxgl.accessToken-->
-    <!--}));-->
-    <!--map.addControl(new mapboxgl.NavigationControl());-->
-    <!--map.addControl(new mapboxgl.FullscreenControl());-->
-    <!--// Add geolocate control to the map.-->
-    <!--map.addControl(new mapboxgl.GeolocateControl({-->
-        <!--positionOptions: {-->
-            <!--enableHighAccuracy: true-->
-        <!--},-->
-        <!--trackUserLocation: true-->
-    <!--}));-->
+    var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v10',
+        // maxZoom : '15',
+        zoom: 16,
+        center: [35.800536,35.526639],
+    });
+    var marker = new mapboxgl.Marker()
+        .setLngLat([35.800536, 35.526639])
+        .addTo(map);
+    map.addControl(new MapboxGeocoder({
+        accessToken: mapboxgl.accessToken
+    }));
+    map.addControl(new mapboxgl.NavigationControl());
+    map.addControl(new mapboxgl.FullscreenControl());
+    // Add geolocate control to the map.
+    map.addControl(new mapboxgl.GeolocateControl({
+        positionOptions: {
+            enableHighAccuracy: true
+        },
+        trackUserLocation: true
+    }));
 
-<!--</script>-->
+</script>
 
 <script src="js/wow.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -535,24 +533,24 @@ background-color:#E1BD92;">
        $('.loader').removeClass('is-active');
        $('#loaderframe').css("display","none");
     }
-    var map = new GMaps({
-        div: '#map',
-        lat: 35.526639,
-        lng: 35.800536,
-        zoom: 18.5,
-        mapType:'HYBRID'
-
-            });
-    map.addMarker({
-        lat: 35.526639,
-        lng: 35.800536,
-        title: 'SyrianPionner ' +
-        'الريادي السوري ',
-        infoWindow: {
-            content: '<h2>ToasTech</h2>' +
-            '<img src="res/team/hasan.jpg">'
-        }
-    });
+    // var map = new GMaps({
+    //     div: '#map',
+    //     lat: 35.526639,
+    //     lng: 35.800536,
+    //     zoom: 18.5,
+    //     mapType:'HYBRID'
+    //
+    //         });
+    // map.addMarker({
+    //     lat: 35.526639,
+    //     lng: 35.800536,
+    //     title: 'SyrianPionner ' +
+    //     'الريادي السوري ',
+    //     infoWindow: {
+    //         content: '<h2>ToasTech</h2>' +
+    //         '<img src="res/team/hasan.jpg">'
+    //     }
+    // });
 </script>
 
 
