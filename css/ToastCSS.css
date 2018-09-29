@@ -21,8 +21,7 @@ body{
     color:#683a29;
 }
 .a-tala-brand{
-    height: 80%;
-    width:80%;
+
     border-radius:50%;
     margin-left: 5%;
     }
@@ -286,8 +285,17 @@ body { padding-right: 0 !important }
     font-family:"titles";
     src:url("site-fonts/title.ttf");
 }
+
+@font-face{
+    font-family:"mainFontFamily";
+    src:url("site-fonts/mainFont.otf");
+}
 .font-french{
     font-family:"french";
+}
+
+.font-main{
+    font-family:"mainFontFamily";
 }
 .font-title{
     font-family:"titles";
